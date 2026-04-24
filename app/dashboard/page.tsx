@@ -1,4 +1,4 @@
-import { Section } from "../components/container";
+import { Section } from "../../components/app/container";
 
 export default function Home() {
   return (

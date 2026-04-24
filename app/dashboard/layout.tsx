@@ -1,4 +1,4 @@
-import { ContainerDashboard } from "../components/container";
+import { ContainerDashboard } from "../../components/app/container";
 
 interface LayoutDashboardProps {
     children: React.ReactNode;

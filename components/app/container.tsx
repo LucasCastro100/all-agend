@@ -33,7 +33,7 @@ export function Section({ children, className = "" }: ContainerProps) {
   // Conteudo que vai detro das sections ja centrado e com padding, para manter o layout consistente em diferentes telas
   export function InnerContainer({ children, className = "" }: ContainerProps) {
     return (
-      <div className={`max-w-6xl mx-auto px-4 w-full ${className}`}>
+      <div className={`max-w-6xl mx-auto p-4 w-full ${className}`}>
         {children}
       </div>
     );
