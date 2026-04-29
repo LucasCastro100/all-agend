@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { InnerContainer, Section } from "../../components/app/container";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -15,12 +16,17 @@ export default function Home() {
           exatamente quanto tempo gasta em cada uma.
         </p>
         <div className="flex gap-4 mt-8">
-          <Button variant="dash" size="lg">
-            Começar Agora
-          </Button>
-          <Button variant="outline" size="lg">
-            Ver Demo
-          </Button>
+          <Link href={"/"}>
+            <Button variant="dash" size="lg">
+              Começar Agora
+            </Button>
+          </Link>
+
+          <Link href={"/demo"}>
+            <Button variant="outline" size="lg">
+              Ver Demo
+            </Button>
+          </Link>
         </div>
       </InnerContainer>
     </Section>

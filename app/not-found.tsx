@@ -18,7 +18,7 @@ export default function NotFound() {
 
             <Link
                 href="/"
-                className="mt-10 px-8 py-3 border border-blue-200 text-blue-200 rounded-md hover:bg-blue-600 transition-all duration-300 font-bold uppercase tracking-widest"
+                className="mt-10 px-4 py-2 border border-blue-200 text-blue-200 rounded-md bg-blue-600 transition-all duration-300 font-bold uppercase tracking-widest"
             >
                 Resgate Imediato
             </Link>
